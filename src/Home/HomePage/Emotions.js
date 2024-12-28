@@ -11,7 +11,7 @@ export default function Emotions() {
       <div className="flex flex-col items-center justify-center mb-10">
         <div className="font-caveat text-5xl ">Mindful Living</div>
      
-        <div className="font-montserrat text-2xl">Embrace happiness, practice gratitude, and find calmness.</div>
+        <div className="font-montserrat mt-5 text-2xl max-lg:flex max-lg:items-center max-lg:justify-center max-sm:flex max-sm:items-center max-sm:justify-center max-lg:text-xl max-sm:w-[80%]">Embrace happiness, practice gratitude, and find calmness.</div>
 
         <div className="flex flex-row items-center justify-center mt-16 gap-14 max-lg:flex-col max-lg:w-full">
           <div className="flex flex-col items-center justify-center ">

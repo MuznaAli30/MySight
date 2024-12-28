@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ChatPage from './Home/chatPage/chatPage'; 
 import Hero from './Home/HomePage/Hero' 
-import FacialRecognization from './Home/HomePage/FacialRecognization';
+import FacialRecognition from './Home/HomePage/FacialRecognition';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <Routes>
       <Route path="/" element={<Hero/>} /> 
         <Route path="/chatPage" element={<ChatPage />} /> 
-        <Route path="/camera" element={<FacialRecognization />} /> 
+        <Route path="/FacialRecognition" element={<FacialRecognition />} /> 
 
 
       </Routes>

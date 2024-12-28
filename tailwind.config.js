@@ -9,6 +9,7 @@ module.exports = {
         matemasie: ['Matemasie', 'serif'],
         montserrat: ['Montserrat', 'sans-serif'], // Add Montserrat font
         roboto: ["Roboto", "sans-serif"],
+        handlee: ['Handlee', 'cursive'],
       },
     },
   },

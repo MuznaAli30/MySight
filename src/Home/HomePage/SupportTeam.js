@@ -5,6 +5,7 @@ import bgTeam from "../../Assests/bgTeam.webp";
 import LetsGetInTouchBg from "./LetsGetInTouchBg";
 import { Link as ScrollLink } from "react-scroll";
 import { Link } from "react-router-dom";
+import Bg2 from "./Bg2";
 
 
 export default function SupportTeam() {
@@ -54,8 +55,8 @@ export default function SupportTeam() {
           </button>
         </div>
       </div>
+      <Bg2/>
       <LetsGetInTouchBg />
-      {/* <Bg2/> */}
     </>
   );
 }

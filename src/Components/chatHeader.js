@@ -13,7 +13,7 @@ export default function ChatHeader() {
   const navigateToCameraPage = (e) => {
     e.preventDefault();
     console.log("camera page");
-    navigate("/camera");
+    navigate("/FacialRecognition");
   };
 
   return (
@@ -48,7 +48,7 @@ export default function ChatHeader() {
           </Link>
           <Link
             onClick={navigateToCameraPage}
-            className="cursor-pointer hover:scale-x-125 duration-500 hover:font-thin"
+            className="cursor-pointer hover:scale-x-125 duration-500 hover:font-thin "
           >
             CAMERA
           </Link>
@@ -95,9 +95,6 @@ export default function ChatHeader() {
               </Link>
               <Link to={"/"} className="block px-4 py-2 hover:bg-[#d5c5c5] cursor-pointer">
                 CONTACT
-              </Link>
-              <Link onClick={navigateToCameraPage} className="block px-4 py-2 hover:bg-[#d5c5c5] cursor-pointer">
-                CAMERA
               </Link>
             </div>
           )}

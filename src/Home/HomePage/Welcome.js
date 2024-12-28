@@ -5,8 +5,8 @@ import Features from "./Features";
 export default function Welcome() {
   return (
     <>
-      <div id="home-part" className=" text-white flex flex-row gap-16 items-center justify-center my-44 max-lg:flex-col max-sm:justify-center max-lg:w-[90%]  max-sm:overflow-x-hidden">
-        <div className="w-[45%] max-lg:w-[90%] max-sm:w-[90%]">
+      <div id="home-part" className=" text-white flex flex-row gap-16 mb-16 items-center justify-center max-lg:flex-col max-sm:justify-center max-lg:w-[90%]  max-sm:overflow-x-hidden">
+        <div className="w-[45%] max-lg:w-[90%] max-sm:w-[90%] mt-16">
           <div className="mt-5 text-black text-8xl font-caveat">welcome</div>
           <div className="font-montserrat text-lg mt-5 text-black max-lg:w-full">
             In today’s fast-paced world, we often overlook the power of our
